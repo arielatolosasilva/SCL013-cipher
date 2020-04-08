@@ -16,7 +16,7 @@ function enviarDatos()
   document.getElementById("seccionMensajes").style.display="block";  //mostrar
   document.getElementById("mensajeBienvenida").style.display="block";  //mostrar
   document.getElementById("bienvenida").innerHTML = "<i> Bienvenida  " +  document.getElementById("nombreUsuario").value+" a nuestra fundacion, si quieres contar tu historia o pedir nuestra ayuda, nos puedes enviar un mensaje cifrado, asi nadie podra ver lo que escribiste solo nosotras. Estaremos en contanto...</i> ";
-
+ 
 }
 
 document.getElementById('escribeMensaje').addEventListener('keyup', aMayuscula);
