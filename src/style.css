@@ -75,7 +75,30 @@
       margin : Auto ; /* formulario centrado */ 
       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       text-align:center;
+      border-radius: 20px 20px 20px 20px;
+      -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
       
   }
-
+#mensajeDespedida{
+    width: 450px;
+      height: 200px;
+      background: rgba(119, 211, 168, 0.863);
+      color: #f2f2f2;
+      position: relative;
+      font-weight: bold;
+      font-size: 20px;
+      padding: 20px;
+      margin : Auto ; /* formulario centrado */ 
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-align:center;
+      margin-top: 300px;
+    margin-left: 500px;
+    margin-right: 300px;
+    border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+-webkit-border-radius: 20px 20px 20px 20px;
+border: 0px solid #000000;
+}
     
