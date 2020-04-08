@@ -106,9 +106,18 @@ function soloNumeros()
   }
 }
 
+document.getElementById('btnEnviar2').addEventListener('click', enviarMensaje);
+function enviarMensaje() 
+{
+  document.getElementById("todo").style.display="none"; //esconder
+  document.getElementById("mensajeDespedida").style.display="block";  //mostrar
 
-
-
+}
+document.getElementById('btnVolver').addEventListener('click', volverPrincipal);
+function volverPrincipal() 
+{
+  location.reload();
+}
 import cipher from './cipher.js';
 
 console.log(cipher);
