@@ -15,7 +15,7 @@ function enviarDatos()
   document.getElementById("informacionPersonal").style.display="none"; //esconder
   document.getElementById("seccionMensajes").style.display="block";  //mostrar
   document.getElementById("mensajeBienvenida").style.display="block";  //mostrar
-  document.getElementById("bienvenida").innerHTML = "Bienvenida   " +  document.getElementById("nombreUsuario").value+" a nuestra fundacion, ahora puedes acceder a utilizar nuestra aplicacion cifrar/descifrar texto... estaremos en contacto";
+  document.getElementById("bienvenida").innerHTML = "Bienvenida   " +  document.getElementById("nombreUsuario").value+" a nuestra fundacion, si quieres contar tu historia o pedir nuestra ayuda, nos puedes enviar un mensaje cifrado asi nadie podra ver lo que escribiste solo nosotras o le podrias dar el link a alguien de confianza si quiere descifrar tus mensaje...estaremos en contanto...";
 
 }
 
@@ -42,7 +42,7 @@ function Cifrar() {
    // (ascii - 65 + (desplazamiento)% 26 + 65);
 
     let posicion;
-    alert(ascii);
+    //alert(ascii);
     // escribiendo con mayuscular
     if (ascii >= 65 && ascii <= 90) {
       // si usa espacio
@@ -68,6 +68,7 @@ function Descifrar() {
   let desplazarOne= document.getElementById("desplazamiento").value;
   let mensajeDescifrado = "";
   let posicion;
+
   for (let i=0; i<textoOne.length; i++){
     let asciI= textoOne.charCodeAt([i]);
     
