@@ -101,4 +101,11 @@
 -webkit-border-radius: 20px 20px 20px 20px;
 border: 0px solid #000000;
 }
-    
+
+#escribeMensaje{
+resize: none;
+}
+
+#tuMensaje{
+  resize: none;
+}
