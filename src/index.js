@@ -1,4 +1,5 @@
 
+//select
 function desplazamiento2(){
   var select = document.getElementById('desplazamiento');
   for (var i = 1; i < 101; i++){
@@ -7,6 +8,15 @@ function desplazamiento2(){
 }
 
 desplazamiento2();
+//solo numero en el telefono
+document.getElementById('telefono').addEventListener('keypress', soloNumeros);
+function soloNumeros()
+{
+  if ((event.keyCode < 48) || (event.keyCode > 57))
+  {
+    event.returnValue = false;
+  }
+}
 
 document.getElementById('btnEnviar').addEventListener('click', enviarDatos);
 function enviarDatos() 
@@ -34,31 +44,11 @@ function Cifrar() {
 
   let texto= document.getElementById("escribeMensaje").value.toUpperCase();
   let desplazamiento= document.getElementById("desplazamiento").value;
-  let mensajeCifrado = "";
+  let encodedText = window.cipher.encode(desplazamiento,texto);
 
-  for (let i=0; i<texto.length; i++){
-    let ascii= texto.charCodeAt([i]);
-    //let posicion = 
-   // (ascii - 65 + (desplazamiento)% 26 + 65);
 
-    let posicion;
-    //alert(ascii);
-    // escribiendo con mayuscular
-    if (ascii >= 65 && ascii <= 90) {
-      // si usa espacio
-      posicion = (ascii - 65 + parseInt(desplazamiento)) % 26 + 65;
-      //alert('*');
-    }//else if(ascii == 209)
-     // posicion = (ascii - 209 + parseInt(desplazamiento)) % 26 + 209;
+  document.getElementById("tuMensaje").value = encodedText;
 
-   
-     else posicion = ascii;
-
-    mensajeCifrado +=String.fromCharCode(posicion);
-  }
-
-  document.getElementById("tuMensaje").value = mensajeCifrado;
- 
 }
 
 document.getElementById('btnDescifrar').addEventListener('click', Descifrar);
@@ -66,23 +56,10 @@ document.getElementById('btnDescifrar').addEventListener('click', Descifrar);
 function Descifrar() {
   let textoOne= document.getElementById("escribeMensaje").value.toUpperCase();
   let desplazarOne= document.getElementById("desplazamiento").value;
-  let mensajeDescifrado = "";
-  let posicion;
+  
+  let decodeText=window.cipher.decode(desplazarOne,textoOne);
 
-  for (let i=0; i<textoOne.length; i++){
-    let asciI= textoOne.charCodeAt([i]);
-    
-//con mayusculas
-    if (asciI >= 65 && asciI <= 90) {
-      //con espacio
-      posicion = (asciI - 65 - parseInt(desplazarOne)) % 26 + 65;
-   
-    }else{ 
-      posicion = asciI;
-    }
-    mensajeDescifrado +=String.fromCharCode(posicion);
-  }
-    document.getElementById("tuMensaje").value = mensajeDescifrado;
+    document.getElementById("tuMensaje").value = decodeText;
 }
 
  
@@ -96,16 +73,6 @@ function Borrar() {
 }
 
 
-
-document.getElementById('telefono').addEventListener('keypress', soloNumeros);
-function soloNumeros()
-{
-  if ((event.keyCode < 48) || (event.keyCode > 57))
-  {
-    event.returnValue = false;
-  }
-}
-
 document.getElementById('btnEnviar2').addEventListener('click', enviarMensaje);
 function enviarMensaje() 
 {
@@ -118,6 +85,8 @@ function volverPrincipal()
 {
   location.reload();
 }
-import cipher from './cipher.js';
 
-console.log(cipher);
+//import cipher from './cipher.js';
+
+//console.log(cipher);
+

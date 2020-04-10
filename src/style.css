@@ -1,11 +1,4 @@
 .contenedor{
-    /*padding: 3px 10px;
-    border: #308A72 5px double;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background:#F8F9F9;
-    margin-left: auto;
-    margin-right: auto;*/
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -94,11 +87,11 @@
       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       text-align:center;
       margin-top: 300px;
-    margin-left: 500px;
-    margin-right: 300px;
-    border-radius: 20px 20px 20px 20px;
-  -moz-border-radius: 20px 20px 20px 20px;
--webkit-border-radius: 20px 20px 20px 20px;
-border: 0px solid #000000;
+      margin-left: 500px;
+      margin-right: 850px;
+      border-radius: 20px 20px 20px 20px;
+     -moz-border-radius: 20px 20px 20px 20px;
+     -webkit-border-radius: 20px 20px 20px 20px;
+      border: 0px solid #000000;
 }
     
