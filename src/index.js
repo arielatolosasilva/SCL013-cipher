@@ -18,15 +18,29 @@ function soloNumeros()
   }
 }
 
+
 document.getElementById('btnEnviar').addEventListener('click', enviarDatos);
 function enviarDatos() 
 {
-  //Aca ocultando las cajas informacionPersonal //
-  document.getElementById("informacionPersonal").style.display="none"; //esconder
-  document.getElementById("seccionMensajes").style.display="block";  //mostrar
-  document.getElementById("mensajeBienvenida").style.display="block";  //mostrar
-  document.getElementById("bienvenida").innerHTML = "<i> Bienvenida  " +  document.getElementById("nombreUsuario").value+" a nuestra fundacion, si quieres contar tu historia o pedir nuestra ayuda, nos puedes enviar un mensaje cifrado, asi nadie podra ver lo que escribiste solo nosotras. Estaremos en contanto...</i> ";
  
+  /*if (document.getElementById('nombreUsuario').value == ""){
+    alert('campos obligatorios');
+    return false;
+  }*/
+
+  if(document.getElementById('nombreUsuario').value != "" && document.getElementById('correoElectronico').value != ""  &&  document.getElementById('telefono').value != ""){
+    //Aca ocultando las cajas informacionPersonal //
+    document.getElementById("informacionPersonal").style.display="none"; //esconder
+    document.getElementById("seccionMensajes").style.display="block";  //mostrar
+    document.getElementById("mensajeBienvenida").style.display="block";  //mostrar
+    document.getElementById("bienvenida").innerHTML = "<i> Bienvenida  " +  document.getElementById("nombreUsuario").value+" a nuestra fundacion, si quieres contar tu historia o pedir nuestra ayuda, nos puedes enviar un mensaje cifrado, asi nadie podra ver lo que escribiste solo nosotras. Estaremos en contanto...</i> ";
+  }else{
+    alert('Todos los campos son obligatorios');
+    document.getElementById('nombreUsuario').title="Debe escribir un nombre";
+    document.getElementById('correoElectronico').title="Debe escribir un mail";
+    document.getElementById('telefono').title="Debe escribir un telefono";
+
+  }
 }
 
 document.getElementById('escribeMensaje').addEventListener('keyup', aMayuscula);

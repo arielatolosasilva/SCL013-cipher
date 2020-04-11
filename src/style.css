@@ -49,9 +49,7 @@
       font-weight: bold;
     }
   
-    input[type=submit]:hover {
-      background-color: rgb(102, 47, 129);
-    }
+    
   
     input[type=button]:hover {
       background-color: rgb(102, 47, 129);
@@ -104,4 +102,6 @@ resize: none;
 #tuMensaje{
   resize: none;
 }
+
+
 
