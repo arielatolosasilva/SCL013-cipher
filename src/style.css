@@ -20,9 +20,10 @@
     }
    
     .piedepagina{
-      text-align: center
-      color:black
-    
+      color: #000000;
+      text-align: center;
+      
+         
     }
   
     input, select {
