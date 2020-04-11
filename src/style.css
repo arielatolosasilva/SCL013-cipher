@@ -95,6 +95,7 @@
       border: 0px solid #000000;
 }
 
+/* Acá fije el tamaño de los textareas */ 
 #escribeMensaje{
 resize: none;
 }
@@ -102,3 +103,4 @@ resize: none;
 #tuMensaje{
   resize: none;
 }
+
