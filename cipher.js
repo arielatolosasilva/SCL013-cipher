@@ -8,9 +8,11 @@ window.cipher = {
       let ascii= string.charCodeAt([i]);
       let posicion;
 
-      if (ascii >= 65 && ascii <= 90) { 
-          posicion = (ascii - 65 + parseInt(offset)) % 26 + 65;
-      }else{ 
+      if (ascii >= 65 && ascii <= 90) {
+ 
+          posicion = ((ascii - 65 + parseInt(offset)) % 26 + 65);
+      }else{
+        
           posicion = ascii;
       }
    
