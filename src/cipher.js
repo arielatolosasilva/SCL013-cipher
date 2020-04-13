@@ -8,16 +8,12 @@ window.cipher = {
       let ascii= string.charCodeAt([i]);
       let posicion;
 
-      if (ascii >= 65 && ascii <= 90) {
-        if(ascii == 90){ //si es Z
-          i=0;
-        }
-        posicion = (ascii - 65 + parseInt(offset)) % 26 + 65;
-  
-      }else{
-        posicion = ascii;
+      if (ascii >= 65 && ascii <= 90) { 
+          posicion = ((ascii - 65 + parseInt(offset)) % 26 + 65);
+      }else{ 
+          posicion = ascii;
       }
-      
+   
       mensajeCifrado +=String.fromCharCode(posicion);
       
     }//cierre for
@@ -32,9 +28,12 @@ window.cipher = {
       let posicion;
   //con mayusculas
       if (asciI >= 65 && asciI <= 90) {
-      
+  
         posicion = (asciI - 65 - parseInt(offset)) % 26 + 65;
-        
+        var dif = 65-posicion;
+        if(dif>0){
+          posicion= 91-dif;
+        }
       }else{ 
         posicion = asciI;
       }
@@ -44,4 +43,4 @@ window.cipher = {
    return mensajeDescifrado
 }
 }
-export default cipher;
+export default window.cipher;
