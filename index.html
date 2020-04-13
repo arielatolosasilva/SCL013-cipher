@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <!-- hace que la pagina se adapte a cualquier dimencion -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" type="module"></script>
+    <script src="cipher.js" type="module"></script>
+  </head>
+    <body>
+      <div id="todo">
+        <!--En la cabecera colocamos la imagen y el nombrel proyecto-->
+        <header class="cabecera">
+            <img src="BannerCabecera.png" id="logo"/>
+        </header>
+        <br>
+        <!--aca debe ingresar sus datos personales... si es que nos decidimos a poner esta parte -->
+        <form  id="informacionPersonal" class="contenedor">
+            <fieldset>
+                <legend><b>INGRESA TUS DATOS</b></legend>npm
+            <p title="Si quiere protoger su identidad, ingrese pseudónimo o nickname"><b>Nombre</b> <input type="text" id="nombreUsuario" name="nombreUsuario" placeholder="Ingrese Nombre o nick...."> </p>
+            <p><b>Correo Electrónico</b> <input type="email" id="correoElectronico" name="correoElectronico"> </p>
+            <p> <b>Telefono</b><input type="tel" id="telefono"  maxlength="9" name="telefono" placeholder=""> </p>
+            <input id="btnEnviar" type="button" value="Guardar">
+            <input id="btnBorrar_1" type="button" value="Borrar">
+            </fieldset>
+        </form>
+         
+         
+        <div id="mensajeBienvenida">
+            <h3 id="bienvenida"></h3>
+        </div>
+ 
+        <br>
+        <div id="seccionMensajes" style="display: none;">  
+            <div class="contenedor">
+                <p> Elige n°de desplazamientos </p><select id="desplazamiento"></select>
+            </div>
+            <br>
+            <!-- area donde escribre el mensaje que quiere cifrar o descifrar-->
+            <div id="mensajeUno" class="contenedor">
+                <p>Escribe tu mensaje aqui </p>
+                <textarea id="escribeMensaje" class="limpiar" name="texto" rows="15" cols="55" placeholder="Cuentanos"></textarea>
+                <br>
+                <!--botones cifrar y descifrar-->
+                <input  id="btnCifrar" type="button" value=" Cifrar ">
+                <input  id="btnDescifrar" type="button" value="Descifrar"> 
+                <br>
+            </div>
+            <br>
+            <!--area donde muestra mensaje cifrado o descifrado-->
+            <div id="mensajeDos" class="contenedor">
+                <p>Este es tu mensaje <br> 
+                <textarea id="tuMensaje" class="limpiar" name="texto" rows="15" cols="55"></textarea></p>
+                <input id="btnEnviar2"  type="submit" value="Enviar">
+                <!--boton borrar para comenzar nuevamente-->
+                <input  id="btnBorrar" type="button"  value="Borrar">
+            </div>
+            <!--division para agrupar elementos-->    
+        </div>
+      </div>
+      <div id="mensajeDespedida" style="display:none">
+        <p>Tu mensaje fue enviado con exito... un abrazo</p>
+        <br>
+        <input  id="btnVolver" type="button"  value="Volver">
+
+      </div>
+        <!--El pie de página -->
+        <footer class="piedepagina">
+            Copyright - Todo los derechos reservados
+        </footer>
+
+    </body>
+</html>

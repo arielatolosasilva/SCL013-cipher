@@ -1,0 +1,107 @@
+.contenedor{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 460px ; /* Ancho */
+    margin : Auto ; /* formulario centrado */  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  }
+      
+  img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80% ; /* Ancho */
+      margin : Auto ; /* formulario centrado */  
+      height: 200px;
+    }
+    body{
+      background:#E8DAEF
+    }
+   
+    .piedepagina{
+      color: #000000;
+      text-align: center;
+      
+         
+    }
+  
+    input, select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+  
+    input[type=submit],input[type=button] {
+      width: 100%;
+      background-color: rgb(214, 165, 238);
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: bold;
+    }
+  
+    
+  
+    input[type=button]:hover {
+      background-color: rgb(102, 47, 129);
+    }
+    #mensajeBienvenida {
+      display: none;
+      width: 450px;
+      height: 200px;
+      background: rgba(119, 211, 168, 0.863);
+      color: #f2f2f2;
+      position: relative;
+      font-weight: bold;
+      font-size: 20px;
+      padding: 20px;
+      margin : Auto ; /* formulario centrado */ 
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-align:center;
+      border-radius: 20px 20px 20px 20px;
+      -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+      
+  }
+#mensajeDespedida{
+    width: 450px;
+      height: 200px;
+      background: rgba(119, 211, 168, 0.863);
+      color: #f2f2f2;
+      position: relative;
+      font-weight: bold;
+      font-size: 20px;
+      padding: 20px;
+      margin : Auto ; /* formulario centrado */ 
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-align:center;
+      margin-top: 300px;
+      margin-left: 500px;
+      margin-right: 850px;
+      border-radius: 20px 20px 20px 20px;
+     -moz-border-radius: 20px 20px 20px 20px;
+     -webkit-border-radius: 20px 20px 20px 20px;
+      border: 0px solid #000000;
+}
+
+/* Acá fije el tamaño de los textareas */ 
+#escribeMensaje{
+resize: none;
+}
+
+#tuMensaje{
+  resize: none;
+}
+
+
+
