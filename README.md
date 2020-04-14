@@ -22,10 +22,13 @@ Trabajamos por la erradicación de la violencia en contexto de relaciones inform
 - Comunicar la situación de vulnerabilidad en la que se encuentren 
 - Recibir ayuda psicológica, social y jurídica
 - Discreción en su historia
+
 ### Cómo crees que el producto que esta creando esta resolviendo sus problemas 
+
 Contar con una mensajería de texto donde (mensaje) escrito con letras solo pueda comprenderse solo si dispone de el número de desplazamiento para descifrarlo, es la herramienta idónea para que las usuarias puedan comunicar historias de manera discreta. 
 
 ### Experiencia de usuario :
+
 * Ideación 
 
 En la primera version el objetivo era para mujeres que querian pedir ayuda cuando estaban sufriendo violecia de genero, pero a traves 
@@ -34,8 +37,6 @@ sufrido o estan sufriendo violencia de genero , quieren contar su historia o ped
 les ofrece un sistema donde ellas pueden mandar un mensaje cifrado para que nadie mas sepa lo que esta escrito tambien la fundacion le mandara 
 un mensaje cifrado, por eso se da la opcion de descifrar.
 Se agrega un fomulario de datos , donde lo mas importante es el mail y telefono para poder estar en contacto.
-
-* Flujograma 
 
 * Prototipado (sketching)
 
@@ -51,3 +52,12 @@ Se presenta en 5 paginas para hacerlo mas interactivo :
 ### Enlace Deploy
 
 https://arielatolosasilva.github.io/SCL013-cipher/
+
+### Creado por :
+
+Eiliana Aguilar
+Ariela Tolosa 
+
+### Creado para :
+
+Laboratoria
