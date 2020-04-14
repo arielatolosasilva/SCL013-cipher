@@ -59,6 +59,7 @@ Para descifrar un mensaje debe seleccionar el número de desplazamiento que va u
 
 
 * Ideación 
+
 En la primera version el objetivo era para mujeres que querian pedir ayuda cuando estaban sufriendo violecia de genero, pero a traves 
 feedback se determino que esta opcion es poco efectiva, por lo que se dio un giro y se conviertio en una instacia donde mujeres que han
 sufrido o estan sufriendo violencia de genero , quieren contar su historia o pedir ayuda para salir de esto pero a traves de una fundacion que 
@@ -66,10 +67,16 @@ les ofrece un sistema donde ellas pueden mandar un mensaje cifrado para que nadi
 un mensaje cifrado, por eso se da la opcion de descifrar.
 Se agrega un fomulario de datos , donde lo mas importante es el mail y telefono para poder estar en contacto.
 
+* Flujograma 
+
 * Prototipado (sketching)
-Primer Sketching en papel
+
+Primer Sketching en papel:
+
 <img src="prototipadopapel.jpeg"/>
-Prototipado final
-Se presenta en 5 paginas para hacerlo mas interactivo pero en la realidad son 3 paginas.
-[Prototipado](https://ariela457345.invisionapp.com/overview/cipher-ck8zy77fb4c96015jgsv7j8vs/screens?v=vIOlyu%2BeOSQ%2Fx39aUpwuzQ%3D%3D&linkshare=urlcopied)
+
+*Prototipado final
+
+Se presenta en 5 paginas para hacerlo mas interactivo :
+(https://ariela457345.invisionapp.com/overview/cipher-ck8zy77fb4c96015jgsv7j8vs/screens?v=vIOlyu%2BeOSQ%2Fx39aUpwuzQ%3D%3D&linkshare=urlcopied)
 
