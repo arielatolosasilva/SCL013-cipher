@@ -27,7 +27,7 @@ describe('cipher', () => {
     });
     test('should return "123?!$" for "123?!$" with offset 33', () => {
       //completa este test!
-      expect(cipher.encode(33,"123?!$")).toBe("123?!$");
+      expect(cipher.encode(33,"123?!$")).toEqual("123?!$");
     });
 
     });
@@ -55,7 +55,7 @@ describe('cipher.decode', () => {
   });
   test('should return "123?!$" for "123?!$" with offset 33', () => {
     //completa este test!
-    expect(cipher.decode(33,"123?!$")).toBe("123?!$");
+    expect(cipher.decode(33,"123?!$")).toEqual("123?!$");
   });
 
   });
