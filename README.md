@@ -73,7 +73,7 @@ Se agrega un fomulario de datos , donde lo mas importante es el mail y telefono 
 
 Primer Sketching en papel:
 
-<img src="prototipadopapel.jpeg"/>
+(https://github.com/arielatolosasilva/SCL013-cipher/blob/master/src/prototipadopapel.jpeg)
 
 *Prototipado final
 
