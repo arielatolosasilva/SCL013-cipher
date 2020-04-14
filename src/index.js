@@ -23,10 +23,6 @@ document.getElementById('btnEnviar').addEventListener('click', enviarDatos);
 function enviarDatos() 
 {
  
-  /*if (document.getElementById('nombreUsuario').value == ""){
-    alert('campos obligatorios');
-    return false;
-  }*/
 
   if(document.getElementById('nombreUsuario').value != "" && document.getElementById('correoElectronico').value != ""  &&  document.getElementById('telefono').value != ""){
     //Aca ocultando las cajas informacionPersonal //
@@ -100,7 +96,4 @@ function volverPrincipal()
   location.reload();
 }
 
-//import cipher from './cipher.js';
-
-//console.log(cipher);
 
