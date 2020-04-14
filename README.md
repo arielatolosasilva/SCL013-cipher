@@ -67,7 +67,9 @@ un mensaje cifrado, por eso se da la opcion de descifrar.
 Se agrega un fomulario de datos , donde lo mas importante es el mail y telefono para poder estar en contacto.
 
 * Prototipado (sketching)
+Primer Sketching en papel
 <img src="prototipadopapel.jpeg"/>
-
-
+Prototipado final
+Se presenta en 5 paginas para hacerlo mas interactivo pero en la realidad son 3 paginas.
+[Prototipado](https://ariela457345.invisionapp.com/overview/cipher-ck8zy77fb4c96015jgsv7j8vs/screens?v=vIOlyu%2BeOSQ%2Fx39aUpwuzQ%3D%3D&linkshare=urlcopied)
 
