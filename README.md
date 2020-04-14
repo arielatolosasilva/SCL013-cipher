@@ -27,12 +27,27 @@ Contar con una mensajería de texto donde (mensaje) escrito con letras solo pued
 
 ### Experiencia de usuario :
 * Ideación 
-En la primera versión el objetivo era para mujeres que querían pedir ayuda cuando estaban sufriendo violencia de genero, pero a través 
-feedback se determino que esta opción es poco efectiva, por lo que se dio un giro y se convirtió en una instancia donde mujeres que han sufrido o están sufriendo violencia de genero, quieren contar su historia o pedir ayuda para salir de esto pero a través de una fundación que les ofrece un sistema donde ellas pueden mandar un mensaje cifrado para que nadie mas sepa lo que esta escrito tambien la fundación le mandara un mensaje cifrado, por eso se da la opción de descifrar.
-Se agrega un formulario de datos , donde lo mas importante es el e-mail y teléfono para poder estar en contacto.
+
+En la primera version el objetivo era para mujeres que querian pedir ayuda cuando estaban sufriendo violecia de genero, pero a traves 
+feedback se determino que esta opcion es poco efectiva, por lo que se dio un giro y se conviertio en una instacia donde mujeres que han
+sufrido o estan sufriendo violencia de genero , quieren contar su historia o pedir ayuda para salir de esto pero a traves de una fundacion que 
+les ofrece un sistema donde ellas pueden mandar un mensaje cifrado para que nadie mas sepa lo que esta escrito tambien la fundacion le mandara 
+un mensaje cifrado, por eso se da la opcion de descifrar.
+Se agrega un fomulario de datos , donde lo mas importante es el mail y telefono para poder estar en contacto.
+
+* Flujograma 
 
 * Prototipado (sketching)
+
+Primer Sketching en papel:
+
 <img src="prototipadopapel.jpeg"/>
 
+*Prototipado final
 
+Se presenta en 5 paginas para hacerlo mas interactivo :
+(https://ariela457345.invisionapp.com/overview/cipher-ck8zy77fb4c96015jgsv7j8vs/screens?v=vIOlyu%2BeOSQ%2Fx39aUpwuzQ%3D%3D&linkshare=urlcopied)
 
+### Enlace Deploy
+
+https://arielatolosasilva.github.io/SCL013-cipher/
