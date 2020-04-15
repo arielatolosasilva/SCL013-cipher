@@ -1,8 +1,7 @@
 
-//select
 function desplazamiento2(){
-  var select = document.getElementById('desplazamiento');
-  for (var i = 1; i < 101; i++){
+  let select = document.getElementById('desplazamiento');
+  for (let i = 1; i < 101; i++){
     select.options[select.options.length] = new Option(i, i);
   }
 }
@@ -23,10 +22,6 @@ document.getElementById('btnEnviar').addEventListener('click', enviarDatos);
 function enviarDatos() 
 {
  
-  /*if (document.getElementById('nombreUsuario').value == ""){
-    alert('campos obligatorios');
-    return false;
-  }*/
 
   if(document.getElementById('nombreUsuario').value != "" && document.getElementById('correoElectronico').value != ""  &&  document.getElementById('telefono').value != ""){
     //Aca ocultando las cajas informacionPersonal //
@@ -47,8 +42,8 @@ document.getElementById('escribeMensaje').addEventListener('keyup', aMayuscula);
 
 function aMayuscula() 
 {
-  var str = document.getElementById("escribeMensaje").value;
-  var res = str.toUpperCase();
+  let str = document.getElementById("escribeMensaje").value;
+  let res = str.toUpperCase();
   document.getElementById("escribeMensaje").value = res;
 }
 
@@ -100,7 +95,5 @@ function volverPrincipal()
   location.reload();
 }
 
-//import cipher from './cipher.js';
 
-//console.log(cipher);
 
