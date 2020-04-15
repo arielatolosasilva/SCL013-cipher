@@ -36,7 +36,7 @@
       box-sizing: border-box;
     }
   
-    input[type=submit],input[type=button] {
+    button {
       width: 100%;
       background-color: rgb(214, 165, 238);
       color: white;
@@ -49,9 +49,14 @@
       font-weight: bold;
     }
   
-    
+    .estilotextarea {
+        width:455px;
+        height:228px;
+        border: 1px 
+        solid rgba(119, 211, 168, 0.863);
+    } 
   
-    input[type=button]:hover {
+    button:hover {
       background-color: rgb(102, 47, 129);
     }
     #mensajeBienvenida {
@@ -102,6 +107,5 @@ resize: none;
 #tuMensaje{
   resize: none;
 }
-
 
 
