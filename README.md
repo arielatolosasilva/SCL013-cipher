@@ -34,7 +34,7 @@ Contar con una mensajería de texto donde (mensaje) escrito con letras solo pued
 En la primera version el objetivo era para mujeres que querian pedir ayuda cuando estaban sufriendo violecia de genero, pero a traves 
 feedback se determino que esta opcion es poco efectiva, por lo que se dio un giro y se conviertio en una instacia donde mujeres que han
 sufrido o estan sufriendo violencia de genero , quieren contar su historia o pedir ayuda para salir de esto pero a traves de una fundacion que 
-les ofrece un sistema donde ellas pueden mandar un mensaje cifrado para que nadie mas sepa lo que esta escrito tambien la fundacion le mandara 
+les ofrece un sistema, donde ellas pueden mandar un mensaje cifrado para que nadie mas sepa lo que esta escrito, tambien la fundacion le mandara 
 un mensaje cifrado, por eso se da la opcion de descifrar.
 Se agrega un fomulario de datos , donde lo mas importante es el mail y telefono para poder estar en contacto.
 
