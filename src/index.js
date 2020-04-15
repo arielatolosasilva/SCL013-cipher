@@ -1,5 +1,5 @@
 
-//select
+//select p
 function desplazamiento2(){
   var select = document.getElementById('desplazamiento');
   for (var i = 1; i < 101; i++){

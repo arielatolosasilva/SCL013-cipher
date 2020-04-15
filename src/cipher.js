@@ -1,4 +1,4 @@
-
+//ini
 window.cipher = {
  
   encode: function (offset, string) {
