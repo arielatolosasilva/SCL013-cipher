@@ -23,8 +23,8 @@
             <p title="Si quiere protoger su identidad, ingrese pseudónimo o nickname"><b>Nombre</b> <input type="text" id="nombreUsuario" name="nombreUsuario" placeholder="Ingrese Nombre o nick...."> </p>
             <p><b>Correo Electrónico</b> <input type="email" id="correoElectronico" name="correoElectronico"> </p>
             <p> <b>Telefono</b><input type="tel" id="telefono"  maxlength="9" name="telefono" placeholder=""> </p>
-            <input id="btnEnviar" type="button" value="Guardar">
-            <input id="btnBorrar_1" type="button" value="Borrar">
+            <button id="btnEnviar">Guardar</button>
+            
             </fieldset>
         </form>
          
@@ -42,21 +42,26 @@
             <!-- area donde escribre el mensaje que quiere cifrar o descifrar-->
             <div id="mensajeUno" class="contenedor">
                 <p>Escribe tu mensaje aqui </p>
-                <textarea id="escribeMensaje" class="limpiar" name="texto" rows="15" cols="61" placeholder="Cuentanos"></textarea>
+                <textarea id="escribeMensaje" class="limpiar estilotextarea" name="texto"  placeholder="Cuentanos"></textarea>
                 <br>
                 <!--botones cifrar y descifrar-->
-                <input  id="btnCifrar" type="button" value=" Cifrar ">
-                <input  id="btnDescifrar" type="button" value="Descifrar"> 
+                
+                <button id="btnCifrar">Cifrar</button>
+                <button id="btnDescifrar">Descifrar</button>
+               
+                
                 <br>
+                
             </div>
             <br>
             <!--area donde muestra mensaje cifrado o descifrado-->
             <div id="mensajeDos" class="contenedor">
-                <p>Este es tu mensaje <br> 
-                <textarea id="tuMensaje" class="limpiar" name="texto" rows="15" cols="61"></textarea></p>
-                <input id="btnEnviar2"  type="submit" value="Enviar">
+                <p>Este es tu mensaje </p>
+                <textarea id="tuMensaje" class="limpiar estilotextarea" name="texto"></textarea>
+                <button id="btnEnviar2">Enviar</button>
                 <!--boton borrar para comenzar nuevamente-->
-                <input  id="btnBorrar" type="button"  value="Borrar">
+                <button id="btnBorrar">Borrar</button>
+                
             </div>
             <!--division para agrupar elementos-->    
         </div>
@@ -64,10 +69,12 @@
       <div id="mensajeDespedida" style="display:none">
         <p>Tu mensaje fue enviado con exito... un abrazo</p>
         <br>
-        <input  id="btnVolver" type="button"  value="Volver">
+        <button id="btnVolver">Volver</button>
+       
 
       </div>
         <!--El pie de página -->
+        <br><br>
         <footer class="piedepagina">
             Copyright - Todo los derechos reservados
         </footer>
