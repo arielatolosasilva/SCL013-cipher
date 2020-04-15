@@ -18,7 +18,7 @@ Este proyecto esta dirigido a mujeres o quienes se identifiquen con el género f
 
 Trabajamos por la erradicación de la violencia en contexto de relaciones informales de pareja, acompañando a sus víctimas directas durante el proceso de desvinculación de sus agresores y promoviendo la desnaturalización de la violencia en nuestra sociedad.
 
-### objetivos de los usuarios en relación con tu producto
+### Objetivos de los usuarios en relación con tu producto
 - Comunicar la situación de vulnerabilidad en la que se encuentren 
 - Recibir ayuda psicológica, social y jurídica
 - Discreción en su historia
