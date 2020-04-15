@@ -1,8 +1,8 @@
 
 //select p
 function desplazamiento2(){
-  var select = document.getElementById('desplazamiento');
-  for (var i = 1; i < 101; i++){
+  let select = document.getElementById('desplazamiento');
+  for (let i = 1; i < 101; i++){
     select.options[select.options.length] = new Option(i, i);
   }
 }
@@ -43,8 +43,8 @@ document.getElementById('escribeMensaje').addEventListener('keyup', aMayuscula);
 
 function aMayuscula() 
 {
-  var str = document.getElementById("escribeMensaje").value;
-  var res = str.toUpperCase();
+  let str = document.getElementById("escribeMensaje").value;
+  let res = str.toUpperCase();
   document.getElementById("escribeMensaje").value = res;
 }
 
